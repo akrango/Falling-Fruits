@@ -1,0 +1,22 @@
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\bin\Debug\vizuelno.exe.config
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\bin\Debug\vizuelno.exe
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\bin\Debug\vizuelno.pdb
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.AssemblyReference.cache
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.SuggestedBindingRedirects.cache
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.Form1.resources
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.Properties.Resources.resources
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.GenerateResource.cache
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.CoreCompileInputs.cache
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\vizuelno.exe
+C:\Users\anast\Desktop\Визуелно колоквиумски\2 kolokvium\vizuelno\vizuelno\obj\Debug\vizuelno.pdb
+C:\Users\anast\Desktop\vizuelno\vizuelno\bin\Debug\vizuelno.exe.config
+C:\Users\anast\Desktop\vizuelno\vizuelno\bin\Debug\vizuelno.exe
+C:\Users\anast\Desktop\vizuelno\vizuelno\bin\Debug\vizuelno.pdb
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.AssemblyReference.cache
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.SuggestedBindingRedirects.cache
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.Form1.resources
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.Properties.Resources.resources
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.GenerateResource.cache
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\FallingFruits.csproj.CoreCompileInputs.cache
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\vizuelno.exe
+C:\Users\anast\Desktop\vizuelno\vizuelno\obj\Debug\vizuelno.pdb
