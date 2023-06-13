@@ -37,11 +37,20 @@
             this.apple = new System.Windows.Forms.PictureBox();
             this.basket = new System.Windows.Forms.PictureBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.bomb = new System.Windows.Forms.PictureBox();
+            this.heart1 = new System.Windows.Forms.PictureBox();
+            this.heart2 = new System.Windows.Forms.PictureBox();
+            this.heart3 = new System.Windows.Forms.PictureBox();
+            this.lblPoints = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.prune)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.peach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.apple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.basket)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bomb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart3)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -103,6 +112,61 @@
             this.basket.TabIndex = 1;
             this.basket.TabStop = false;
             // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // bomb
+            // 
+            this.bomb.BackColor = System.Drawing.Color.Transparent;
+            this.bomb.Image = global::FallingFruits.Properties.Resources.bomb;
+            this.bomb.Location = new System.Drawing.Point(165, 80);
+            this.bomb.Name = "bomb";
+            this.bomb.Size = new System.Drawing.Size(60, 60);
+            this.bomb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bomb.TabIndex = 10;
+            this.bomb.TabStop = false;
+            // 
+            // heart1
+            // 
+            this.heart1.Image = global::FallingFruits.Properties.Resources.heart;
+            this.heart1.Location = new System.Drawing.Point(12, 458);
+            this.heart1.Name = "heart1";
+            this.heart1.Size = new System.Drawing.Size(30, 30);
+            this.heart1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart1.TabIndex = 11;
+            this.heart1.TabStop = false;
+            // 
+            // heart2
+            // 
+            this.heart2.Image = ((System.Drawing.Image)(resources.GetObject("heart2.Image")));
+            this.heart2.Location = new System.Drawing.Point(61, 458);
+            this.heart2.Name = "heart2";
+            this.heart2.Size = new System.Drawing.Size(30, 30);
+            this.heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart2.TabIndex = 11;
+            this.heart2.TabStop = false;
+            // 
+            // heart3
+            // 
+            this.heart3.Image = ((System.Drawing.Image)(resources.GetObject("heart3.Image")));
+            this.heart3.Location = new System.Drawing.Point(110, 458);
+            this.heart3.Name = "heart3";
+            this.heart3.Size = new System.Drawing.Size(30, 30);
+            this.heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart3.TabIndex = 11;
+            this.heart3.TabStop = false;
+            // 
+            // lblPoints
+            // 
+            this.lblPoints.AutoSize = true;
+            this.lblPoints.Font = new System.Drawing.Font("MS Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPoints.Location = new System.Drawing.Point(8, 502);
+            this.lblPoints.Name = "lblPoints";
+            this.lblPoints.Size = new System.Drawing.Size(147, 28);
+            this.lblPoints.TabIndex = 12;
+            this.lblPoints.Text = "Points: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -111,6 +175,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 539);
+            this.Controls.Add(this.lblPoints);
+            this.Controls.Add(this.heart3);
+            this.Controls.Add(this.heart2);
+            this.Controls.Add(this.heart1);
+            this.Controls.Add(this.bomb);
             this.Controls.Add(this.prune);
             this.Controls.Add(this.pear);
             this.Controls.Add(this.peach);
@@ -125,7 +194,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.peach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.apple)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.basket)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bomb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -137,6 +211,11 @@
         private System.Windows.Forms.PictureBox pear;
         private System.Windows.Forms.PictureBox prune;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.PictureBox bomb;
+        private System.Windows.Forms.PictureBox heart1;
+        private System.Windows.Forms.PictureBox heart2;
+        private System.Windows.Forms.PictureBox heart3;
+        private System.Windows.Forms.Label lblPoints;
     }
 }
 

@@ -83,6 +83,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\vecteezy_tree-branch-clipart-design-illustration_9391177_529.png" />
+    <None Include="Resources\heart.png" />
+    <None Include="Resources\bomb.png" />
     <None Include="Resources\tree-removebg-preview.png" />
     <None Include="Resources\basket1.png" />
     <None Include="Resources\sliva1.png" />

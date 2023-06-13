@@ -12,11 +12,14 @@ namespace FallingFruits
     public class Scene
     {
         public List<PictureBox> fruits;
+        public List<PictureBox> hearts;
         public int Height;
+        public int Points = 0;
         public static Random Random { get; set; } = new Random();
-        public Scene(List<PictureBox> fruits, int height)
+        public Scene(List<PictureBox> fruits, List<PictureBox> hearts, int height)
         {
             this.fruits = fruits;
+            this.hearts = hearts;
             Height = height;
         }
         public void FallDown()
@@ -39,7 +42,8 @@ namespace FallingFruits
                 if (fruits[i].Bounds.IntersectsWith(basket.Bounds))
                 {
 
-
+                    Points += 10;
+                    
                     RemoveGenerateFruit(fruits[i]);
                 }
 
@@ -47,6 +51,9 @@ namespace FallingFruits
 
 
         }
+
+       
+
         public void RandomizeTop(PictureBox fruit)
         {
             fruit.Top = Random.Next(-250, 60);
@@ -62,6 +69,31 @@ namespace FallingFruits
                 }
 
             }
+
+        }
+        public bool RemoveHearts()
+        {
+            if (hearts.Count > 0)
+            {
+                hearts.ElementAt(hearts.Count - 1).Visible = false;
+                hearts.RemoveAt(hearts.Count - 1);
+                bool AreNotVisible = true;
+                foreach (PictureBox heart in hearts)
+                {
+                    if (heart.Visible)
+                    {
+                        AreNotVisible = false;
+                    }
+                }
+                if (AreNotVisible)
+                {
+                    
+                    return true;
+                }
+
+               
+            }
+            return false;
 
         }
 
