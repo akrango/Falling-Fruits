@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FallingFruits.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,11 @@ namespace FallingFruits
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            using (var db = new UserDBContext())
+            {
+                db.Database.CreateIfNotExists();
+            }
+            Application.Run(new LogIn());
         }
     }
 }

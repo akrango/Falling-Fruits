@@ -39,20 +39,16 @@ namespace FallingFruits
             for (int i = fruits.Count - 1; i >= 0; i--)
             {
 
-                if (fruits[i].Bounds.IntersectsWith(basket.Bounds))
+                if (fruits[i].Bounds.IntersectsWith(basket.Bounds) && fruits[i].Bottom >= basket.Top)
                 {
 
                     Points += 10;
-                    
+
                     RemoveGenerateFruit(fruits[i]);
                 }
 
             }
-
-
         }
-
-       
 
         public void RandomizeTop(PictureBox fruit)
         {
@@ -87,11 +83,11 @@ namespace FallingFruits
                 }
                 if (AreNotVisible)
                 {
-                    
+
                     return true;
                 }
 
-               
+
             }
             return false;
 
